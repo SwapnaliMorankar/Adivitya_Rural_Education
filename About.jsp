@@ -1,0 +1,85 @@
+<%-- 
+    Document   : About
+    Created on : 01-Mar-2024, 9:39:36 pm
+    Author     : snmor
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Welcome to Advitiya - About Page</title>
+        <link rel="stylesheet" href="CSS/About.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- logo -->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid logo_color">
+              <a class="navbar-brand"><img src="Images/aicte-logo (1).png"  alt=""> </a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        
+        <!-- navbar -->
+        <nav class="navbar1 navbar-expand-lg bg-body-tertiary size">
+          <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Home.jsp">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="About.jsp">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Partners.jsp">OUR PARTNERS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Schemes.jsp">GOV SCHEMES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">COURSES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">ANNOUNCEMENTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">SUPPORT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Login.jsp">LOGIN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+         <!-- main content -->
+        <div class="container1">
+            <h1>OUR VISION</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nulla mollitia error officia tempora sapiente quisquam cum commodi quos ipsam fugit quis numquam perferendis, dolor sint nisi. Vel rerum repudiandae nesciunt? Dolorum, asperiores autem neque, iusto sunt eum qui optio fugit soluta, quo voluptate minus nemo! Sunt quasi pariatur tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatem vel ut omnis tempora mollitia et iste, doloremque ratione sed nostrum tempore repellendus consectetur dolorem, aliquid, totam quod corrupti facilis nesciunt consequatur! Nesciunt obcaecati neque reiciendis repellendus, incidunt consectetur officia mollitia ea recusandae, sapiente, delectus consequuntur dolore distinctio. Repellendus, rerum cumque! Eos nesciunt iure quasi. Earum repellendus natus sit consectetur delectus provident quo alias dolor, aspernatur odit quis laborum animi dignissimos laboriosam explicabo aliquid dolore deserunt dicta similique nihil officia fugiat! Adipisci laborum, at ullam laudantium ratione mollitia non harum magni recusandae consectetur incidunt excepturi id aperiam minus maiores magnam hic provident quae nemo iusto deleniti obcaecati facilis sit iste! Nobis laudantium impedit nesciunt labore? Eligendi atque tempora repellendus praesentium in corrupti ullam magnam! Facere cupiditate debitis in corrupti necessitatibus cum esse tempore ex distinctio, mollitia et modi quos ipsa praesentium dolore accusamus velit ipsum exercitationem asperiores, culpa provident numquam rem. Molestiae nobis eligendi tempore. Voluptates non, at blanditiis repellendus tempore perspiciatis, impedit repudiandae laborum dicta dignissimos aliquid inventore nesciunt quod ipsam minus animi similique sint consectetur! Cumque a quas alias quaerat vel iste, qui tempore quod consectetur ipsum quam non corporis aperiam veniam ducimus obcaecati laudantium aliquam repudiandae earum? </p>
+        </div>
+
+        <div class="container2">
+            <h1>OUR MISSION</h1>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt, in, culpa harum ex fugit aspernatur incidunt asperiores, reprehenderit quisquam placeat eveniet quis deserunt necessitatibus veniam iure nisi ipsum id non dolorem cupiditate eum cumque hic? Animi deleniti tenetur exercitationem expedita. Libero, animi dolorem inventore vero quisquam similique voluptate asperiores!This is a responsive box with text inside it. Resize your browser window to see it adapt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quis cupiditate! Blanditiis in, praesentium fugit eligendi recusandae magni aperiam temporibus itaque quo nulla non consequatur, exercitationem quas neque culpa et deleniti cupiditate, quae ut libero molestias! Id ipsa numquam at minima, voluptas temporibus quibusdam dolorum maiores a ea nulla, modi eum! Dicta, vitae. Accusamus, quis nulla culpa veniam tempora id eos modi tenetur odit excepturi dolorum sit facere nesciunt ea inventore maxime assumenda sequi, pariatur vitae vero! Odio suscipit laboriosam est sequi libero! Ratione, repudiandae nam accusamus error voluptatem modi eos. Ipsa voluptate dolorum sit totam sequi eaque ipsam quisquam id ducimus dolor velit tenetur corporis odio, accusantium repellat placeat ea aspernatur praesentium expedita aperiam quibusdam facilis? Temporibus atque suscipit aperiam autem alias sunt cupiditate, perspiciatis ipsam adipisci nesciunt aliquam quo laudantium? A, nisi quia maxime nostrum libero eaque aperiam? Temporibus id et magni! Quas odit quae sint voluptatem sit, reprehenderit omnis saepe voluptatum tempora earum accusantium ea corporis dolorem dignissimos magni porro praesentium aut eum rem quam ipsam illum nostrum fugit. Voluptatem minima eum quibusdam quam itaque veritatis optio consectetur alias maiores, doloremque expedita non libero vitae et quas aperiam cumque adipisci iure minus quidem voluptas id ipsam voluptate.</p>
+        </div>
+
+        <div class="container3">
+            <h1>ADVITIYA SCHEME MODEL</h1>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat aperiam error voluptas. Explicabo earum provident exercitationem molestias mollitia perferendis rem error fuga aspernatur. Nulla, tempora minima natus ducimus eaque in totam aliquid necessitatibus consequuntur maiores adipisci expedita praesentium distinctio incidunt dolor, repudiandae optio aut explicabo quae nesciunt. Ducimus, facere voluptatem?This is a responsive box with text inside it. Resize your browser window to see it adapt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non repellendus sapiente delectus obcaecati nihil voluptatem aperiam. Commodi velit repellendus dolorum, quas voluptate fugiat ad quos eius perferendis dignissimos harum eaque qui autem. Perferendis fugit vel est pariatur beatae eaque! Quo delectus totam rem assumenda asperiores temporibus et molestias, ipsa tempore modi. Nemo, rerum! Quos cupiditate ratione odit officiis sequi ipsam libero deleniti, amet nam, error perferendis minima mollitia dicta architecto laboriosam. Odio minima debitis aliquam exercitationem veniam recusandae qui quia, fugiat incidunt! Autem modi inventore obcaecati nostrum eos fugiat, sapiente quibusdam perspiciatis similique, voluptas quasi enim cumque, cum laboriosam. Temporibus neque, maiores sunt corporis laudantium accusamus nihil cum numquam optio ex qui dolores sint quam possimus magnam esse, recusandae officia a voluptatibus amet, ratione deleniti eos. Nobis sapiente minima optio provident minus libero. Officia odit perferendis, quo magnam voluptates doloremque ab a reprehenderit ducimus nobis perspiciatis nam non pariatur. Recusandae quae et, pariatur est vel delectus libero. Reprehenderit dicta ad necessitatibus possimus quo impedit quam ut molestiae, officiis tenetur obcaecati recusandae mollitia debitis voluptates dolorum, natus optio provident inventore exercitationem tempora aspernatur accusamus nam maiores aliquid? Quam voluptas ex ipsam repellat ullam odio cumque, sapiente delectus amet optio ut explicabo. </p>
+        </div>
+
+        
+    </body>
+</html>
