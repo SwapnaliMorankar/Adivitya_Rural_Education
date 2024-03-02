@@ -35,18 +35,18 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Home2.html">HOME</a>
+                  <a class="nav-link active" aria-current="page" href="Home.jsp">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                  <a class="nav-link active" aria-current="page" href="About.jsp">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">OUR PARTNERS</a>
+                  <a class="nav-link active" aria-current="page" href="Partners.jsp">OUR PARTNERS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">GOV SCHEMES</a>
+                  <a class="nav-link active" aria-current="page" href="Schemes.jsp">GOV SCHEMES</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">COURSES</a>
@@ -58,7 +58,7 @@
                   <a class="nav-link active" aria-current="page" href="#">SUPPORT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">LOGIN</a>
+                  <a class="nav-link active" aria-current="page" href="Login.jsp">LOGIN</a>
                 </li>
               </ul>
             </div>
@@ -74,8 +74,8 @@
                 </div>
               </div>
                 <form class="login-form" >
-                    <input type="text" name="user_name" placeholder="username"/>
-                    <input type="password" name="password" placeholder="password"/>
+                    <input type="text" name="user_name" placeholder="Enter Unique School ID" required/>
+                    <input type="password" name="password" placeholder="Enter your Password" required/>
                 <button>login</button>
 
               </form>

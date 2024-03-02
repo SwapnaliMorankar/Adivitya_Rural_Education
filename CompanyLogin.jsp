@@ -1,6 +1,6 @@
 <%-- 
-    Document   : StudentLogin
-    Created on : 01-Mar-2024, 7:04:48 pm
+    Document   : CompanyLogin
+    Created on : 01-Mar-2024, 10:11:14 pm
     Author     : snmor
 --%>
 
@@ -9,8 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome to Advitiya - Student Login Page</title>
-        <link rel="stylesheet" href="CSS/StudentLogin.css">
+        <title>JSP Page</title>
+        <link rel="stylesheet" href="CSS/CompanyLogin.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
         rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
@@ -66,23 +66,21 @@
         </nav>
         
         <div class="login-page">
-            <div class="form">
-              <div class="login">
-                <div class="login-header">
-                  <h3>LOGIN</h3>
-                  <p>Please enter your credentials to login.</p>
-                </div>
-              </div>
-                <form class="login-form">
-                    <input type="text" name="user_name" placeholder="Enter Unique School ID" required/>
-                    <input type="text" name="user_name" placeholder="Enter Student Roll No" required/>
-                    <input type="password" name="password" placeholder="Enter your password" required/>
-                <button>login</button>
-              </form>
-            </div>
-          </div>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+          <form class="login-form" action="companylogin">
+              <input type="text" name="user_name" placeholder="User ID" required/>
+              <input type="password" name="password" placeholder="password" required/>
+          <button>login</button>
+          
+        </form>
+      </div>
+    </div>
+
     </body>
 </html>

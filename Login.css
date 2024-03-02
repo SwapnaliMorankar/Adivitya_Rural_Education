@@ -14,24 +14,20 @@
     height: 70px;
    
 }
+
+
 @media screen and (max-width: 480px) {
 .size{
     background-color: #653f3f;
     margin-top: 30px;
    
 }
-.navbar1{
-    background-color: #333;
-}
 
 .w-100{
     height: 50px;
 }   
 }
-.navbar-toggler-icon{
-    background-color: #333;
-    
-}
+
 .w-100{
     height: 600px;
 }
@@ -56,87 +52,78 @@
 li{
     font-size: 20px;
 }
-.container2 {
-    width: 100%;
-    max-width: 1000px; /* Adjust the maximum width as needed */
-    margin-left: 520px;
-    margin-top: 80px;
-    padding: 30px;
-    background-image: url("Images/3033-safeimagekit.jpeg");
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    border: 5px solid blue;
-    box-shadow: 0px 0px 10px 4px rgb(158, 158, 237);
-}
-.container3:hover{
-    transform: scale(1.05);
-    transition: 1s;
-}
-.container2:hover{
-    transform: scale(1.05);
-    transition: 1s;
-}
-.container1:hover{
-    transform: scale(1.05);
-    transition: 1s;
-}
-.text {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.5;
-    text-align: justify;
-}
 
-h1{
-    font-weight: 600;
-    font-style: italic;
-}
 
-@media (max-width: 1890px) {
-    .container1 {
-        width: 90%;
-    }
-    .container2 {
-        width: 90%;
-    }
-    .container3 {
-        width: 90%;
-    }
-    .text {
-        font-size: 18px;
-    }
-}
 
-.container1 {
-    width: 100%;
-    max-width: 1000px; 
-    padding: 20px 50px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    margin-top: 80px;
-    border: 5px solid rgb(239, 130, 93);
-    box-shadow: 0px 0px 10px 4px rgb(243, 151, 121);
-    margin-left: -20px;
-}
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-color: #f1f1f1;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 80%;
+    }
+    .box {
+        flex: 1 1 calc(33.33% - 20px);
+        margin-top: 150px;
+        padding: 100px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: all 0.3s ease;
+        border: 1px solid grey;
+        margin-left: 10px;
+        text-decoration: none;
 
-.container3 {
-    width: 100%;
-    max-width: 1000px; /* Adjust the maximum width as needed */
-    padding: 20px 50px;
-    background-image: url(Images/3033-safeimagekit.jpeg);
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    margin-top: 80px;
-    border: 5px solid rgb(21, 137, 10);
-    box-shadow: 0px 0px 10px 4px rgb(154, 231, 147);
-    margin-left: -20px;
-}
+    }
+    .box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+    a {
+    color: white !important;
+    text-decoration: none !important;
+    }
+    h2 {
+        margin-top: 0;
+        font-size: 24px;
+        color: #333;
+    }
+    .button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        background-color: #4CAF50;
+        color: white !important;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .button:hover {
+        background-color: #45a049;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .box {
+            flex: 0 1 calc(50% - 20px);
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .box {
+            flex: 0 1 calc(100% - 20px);
+        }
+    }
 
 /* footer.............................. */
 
