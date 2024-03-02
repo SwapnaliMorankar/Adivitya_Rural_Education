@@ -48,13 +48,13 @@
                   <a class="nav-link active" aria-current="page" href="Schemes.jsp">GOV SCHEMES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">COURSES</a>
+                  <a class="nav-link active" aria-current="page" href="Courses.jsp">COURSES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">ANNOUNCEMENTS</a>
+                  <a class="nav-link active" aria-current="page" href="Annoucements.jsp">ANNOUNCEMENTS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">SUPPORT</a>
+                  <a class="nav-link active" aria-current="page" href="Support.jsp">SUPPORT</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Login.jsp">LOGIN</a>

@@ -48,13 +48,13 @@
                   <a class="nav-link active" aria-current="page" href="Schemes.jsp">GOV SCHEMES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">COURSES</a>
+                  <a class="nav-link active" aria-current="page" href="Courses.jsp">COURSES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">ANNOUNCEMENTS</a>
+                  <a class="nav-link active" aria-current="page" href="Annoucements.jsp">ANNOUNCEMENTS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">SUPPORT</a>
+                  <a class="nav-link active" aria-current="page" href="Support.jsp">SUPPORT</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Login.jsp">LOGIN</a>
@@ -101,17 +101,17 @@
     <div class="container1">
         <div data-aos="fade-right" data-aos-duration="3000">
         <div class="diamond" style="background-color: rgb(244, 121, 26);">
-            <a href=""><div class="heading"> COURSES </div></a>
+            <a href="Courses.jsp"><div class="heading"> COURSES </div></a>
         </div>
         </div>
         <div data-aos="zoom-in" data-aos-duration="3000">
         <div class="diamond" style="background-color: #d5d3d3;">
-            <a href=""><div class="heading" style="color: blue;">SCHEMES </div></a>
+            <a href="Schemes.jsp"><div class="heading" style="color: blue;">SCHEMES </div></a>
         </div>
         </div>
         <div data-aos="fade-left" data-aos-duration="3000">
         <div class="diamond" style="background-color: rgb(21, 196, 21)">
-            <a href=""><div class="heading">PARTNERS</div></a>
+            <a href="Partners.jsp"><div class="heading">PARTNERS</div></a>
         </div>
         </div>
     </div>

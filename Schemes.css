@@ -120,7 +120,7 @@ body{
     border: 6px solid black;
     position: absolute;
     display: none;
-    top: 310px;
+    top:50px;
     left: 230px;
     padding-left: 30px;
 }
