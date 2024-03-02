@@ -51,7 +51,7 @@
                   <a class="nav-link active" aria-current="page" href="Courses.jsp">COURSES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Annoucements.jsp">ANNOUNCEMENTS</a>
+                  <a class="nav-link active" aria-current="page" href="Announcements.jsp">ANNOUNCEMENTS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Support.jsp">SUPPORT</a>

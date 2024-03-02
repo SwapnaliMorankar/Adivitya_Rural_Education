@@ -1,0 +1,166 @@
+/* footer.............................. */
+
+.foot-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(92, 91, 91);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    color: black;
+}
+.footer1{
+   width:  300px;
+   height: 190px;
+   /* background-color: #bb4c4c; */
+   color: black;
+   line-height: 1.5;
+   border-left: 2px solid black;
+}
+.footer2{
+    width:  300px;
+   height: 190px;
+   /* background-color: #bb4c4c; */
+   color: rgb(146, 143, 143);
+   line-height: 1.5;
+   border-left: 2px solid rgb(210, 203, 203);
+}
+.footer3{
+    width:  300px;
+   height: 190px;
+   /* background-color: #bb4c4c; */
+   color: rgb(163, 163, 163);
+   line-height: 1.5;
+   border-left: 2px solid rgb(220, 209, 209);
+}
+.list-title{
+    font-size: 40px !important;
+    margin-left: -10px !important;
+    margin-top: -10px;
+}
+.footer1 ul li{
+    list-style: none;
+    font-size: 15px;   
+}
+.footer2 ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.footer3 ul li{
+    list-style: none;
+    font-size: 15px;
+}
+hr{
+    background-color: black;
+}
+footer{
+    display: block;
+}
+.logos{
+    background-color: #653f3f;
+    height: 50px;
+    margin-top: 281px;
+    display: flex;
+    justify-content: center;
+    z-index: 1s;
+    flex-wrap: wrap;
+    background-color: skyblue;
+}
+.logo1{
+    width: 35px;
+    height: 100%;
+    /* background-color: #fff; */
+    padding-top: 9px;
+}
+.logo2{
+    width: 35px;
+    height: 100%;
+    /* background-color: #933b3b; */
+    padding-top: 9px;
+}
+.logo3{
+    width: 35px;
+    height: 100%;
+    /* background-color: #220f6e; */
+    padding-top: 9px;
+}
+.logo1 img{
+    width: 30px;
+    
+}
+.logo2 img{
+    width: 30px;
+    
+}
+.logo3 img{
+    width: 30px;
+    
+}
+.backdesign{
+    background-image: url(Indian-Flag-Art-Image\ \(1\)-safeimagekit.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    height: 100px;
+    margin-top: -10px;
+}
+.navbar-brand img{
+    width:320px;    
+    height: 70px;
+   
+}
+@media screen and (max-width: 480px) {
+.size{
+    background-color: #653f3f;
+    margin-top: 30px;
+   
+}
+.navbar1{
+    background-color: #333;
+}
+
+.w-100{
+    height: 50px;
+}   
+}
+.navbar-toggler-icon{
+    background-color: #333;
+    
+}
+.w-100{
+    height: 600px;
+}
+.navbar1{
+    height: 50px ;
+    z-index: 5;
+    position: sticky;
+    top: 0px;
+    
+}
+.container-fluid{
+    background-color: skyblue;
+}
+.navbar-collapse{
+    justify-content: space-evenly;
+    margin-left: -30px;
+}
+.nav-link{
+    margin-left: 50px;
+    color: black !important;
+}
+li{
+    font-size: 20px;
+}

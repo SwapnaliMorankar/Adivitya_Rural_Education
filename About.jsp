@@ -51,7 +51,7 @@
                   <a class="nav-link active" aria-current="page" href="Courses.jsp">COURSES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Annoucements.jsp">ANNOUNCEMENTS</a>
+                  <a class="nav-link active" aria-current="page" href="Announcements.jsp">ANNOUNCEMENTS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="Support.jsp">SUPPORT</a>
@@ -97,7 +97,50 @@
                 In our pursuit of educational transformation, Advitiya recognizes the intrinsic link between education and economic empowerment. By seamlessly integrating innovative pedagogies with income-generating avenues, we empower students to not only excel academically but also to become self-sufficient individuals. Our approach is holistic, aiming to break down the barriers that impede educational access and attainment in rural communities. With a steadfast resolve, Advitiya marches forward, heralding a new dawn in rural education, where every child has the chance to thrive and contribute meaningfully to society. Join us as we embark on this transformative journey, one community at a time. </p>
         </div>
 
-         
+         <footer>
+        <div class="float-start foot-container" style="background-color: skyblue">
+            <div class="footer1" style="color: black; border-left: 2px solid black;">
+                <ul>
+                    <li class="list-title">Top Partners</li>
+                    <li>Home Decor</li>
+                    <li>Decor Me</li>
+                    <li>Brownwood</li>
+                    <li>Yarnriot</li>
+                    <li>Insight Decor</li>
+                    <li>Bloom Box</li>
+                </ul>
+            </div>
+            <div class="footer2" style="color: black; border-left: 2px solid black;">
+                <ul>
+                    <li class="list-title">Top Courses</li>
+                    <li>Discover-Learn-Fun</li>
+                    <li>Wonder-Learn-Fun</li>
+                    <li>Ecojourney-Learn-Fun</li>
+                    <li>Think-Learn-Fun</li>
+                    <li>Innovate-Learn-Fun</li>
+                    <li>Invent-Learn-Fun</li>
+                </ul>
+            </div>
+            <div class="footer3" style="color: black; border-left: 2px solid black;">
+                <ul>
+                    <li class="list-title">Contact Us</li>
+                    <li>Email - abc@govofindia</li>
+                    <li>Phone - +91 - 123497568</li>
+                    <li>Toll Free - 255-6999</li>
+                    <li>Headquarters - Pune, India</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+    </footer>
+   <div class="logos" style="background-color: skyblue">
+    <div class="logo1"><img src="Images/facebooklogo.png" alt=""></div>
+    <div class="logo2"><img src="Images/instalogo.png" alt=""></div>
+    <div class="logo3"><img src="Images/twitterlogo.png" alt=""></div>
+   </div>
+    
          
     </body>
 </html>

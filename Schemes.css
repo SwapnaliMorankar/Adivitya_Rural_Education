@@ -312,7 +312,7 @@ body{
     /* margin-top: 120px; */
     width: 200%;
     height: 210px;
-    background-color: rgb(202, 199, 199);
+    background-color: rgb(237, 233 ,233) !important;
     display: flex;
     justify-content: space-evenly;
     /* border: 2px solid black ; */
